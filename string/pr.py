@@ -1,8 +1,6 @@
 # this is a comment
 print("Hello world")
 
-print("Hello world") # 2nd time!
-
 class Solution:
     def reverseString(self, s: list[str]) -> None:
         left, right = 0, len(s) - 1
@@ -14,3 +12,5 @@ class Solution:
 s = ['a', 'b', 'h', 'a', 'y']
 Solution().reverseString(s)
 print(s)  # Output: ['y', 'a', 'h', 'b', 'a']
+
+print("Hello world") # 2nd time!
