@@ -10,3 +10,7 @@ class Solution:
             s[left], s[right] = s[right], s[left]
             left += 1
             right -= 1
+
+s = ['a', 'b', 'h', 'a', 'y']
+Solution().reverseString(s)
+print(s)  # Output: ['y', 'a', 'h', 'b', 'a']
